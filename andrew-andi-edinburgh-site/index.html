@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Andi and Andrew's Las Vegas-inspired wedding celebration in Edinburgh on 22 May 2027." />
+  <meta name="theme-color" content="#08080a" />
+  <title>Andi &amp; Andrew — Edinburgh Celebration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Andi and Andrew home">A <span>&amp;</span> A</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#experience">The night</a>
+      <a href="#music">Entertainment</a>
+      <a href="#food">Food &amp; drink</a>
+      <a href="#details">Venue</a>
+      <a class="nav-cta" href="rsvp.html">RSVP</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/images/vegas-skyline.jpg" alt="The Las Vegas skyline illuminated at night" />
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">You're invited</p>
+        <h1 id="hero-title"><span>Andi</span><em>&amp;</em><span>Andrew</span></h1>
+        <p class="hero-line">What happens in Vegas<br><strong>is coming to Edinburgh.</strong></p>
+        <div class="hero-details">
+          <span>22 May 2027</span>
+          <i aria-hidden="true"></i>
+          <span>6:30 PM · Edinburgh Accies, Stockbridge</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="rsvp.html">Confirm attendance</a>
+          <a class="button button-ghost" href="#experience">Explore the celebration</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#countdown" aria-label="Scroll to countdown"><span></span></a>
+    </section>
+
+    <section class="countdown-section" id="countdown" aria-label="Countdown to the celebration">
+      <div class="section-shell countdown-shell reveal">
+        <div>
+          <p class="eyebrow">The countdown is on</p>
+          <h2>One unforgettable night.</h2>
+        </div>
+        <div class="countdown">
+          <div><strong id="days">000</strong><span>Days</span></div>
+          <div><strong id="hours">00</strong><span>Hours</span></div>
+          <div><strong id="minutes">00</strong><span>Minutes</span></div>
+          <div><strong id="seconds">00</strong><span>Seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-shell reveal" id="experience">
+      <p class="eyebrow">Las Vegas energy. Edinburgh heart.</p>
+      <h2>This is not your average wedding party.</h2>
+      <p class="lead">We are getting married in Las Vegas with our immediate family, then bringing the celebration home. Join us in Stockbridge for live music, casino tables, close-up magic, cocktails, American-style food and a dance floor made for a very late night.</p>
+    </section>
+
+    <section class="feature feature-casino">
+      <img src="assets/images/casino-room.jpg" alt="Guests enjoying casino tables at an elegant celebration" loading="lazy" />
+      <div class="feature-shade"></div>
+      <div class="feature-copy reveal">
+        <p class="eyebrow">Place your bets</p>
+        <h2>The Vegas casino</h2>
+        <p>Roulette, blackjack and more—played for fun, bragging rights and the glory of leaving the table on top.</p>
+      </div>
+    </section>
+
+    <section class="cards-grid section-shell">
+      <article class="image-card reveal">
+        <img src="assets/images/blackjack.jpg" alt="A croupier dealing cards at a black and gold blackjack table" loading="lazy" />
+        <div><span>Blackjack</span><p>Take a seat, play your hand and try your luck.</p></div>
+      </article>
+      <article class="image-card reveal">
+        <img src="assets/images/roulette.jpg" alt="A polished roulette wheel with champagne and casino chips" loading="lazy" />
+        <div><span>Roulette</span><p>Red, black—or something a little more ambitious?</p></div>
+      </article>
+      <article class="image-card reveal">
+        <img src="assets/images/magician.jpg" alt="A magician performing a card trick for delighted guests" loading="lazy" />
+        <div><span>Close-up magic</span><p>Expect the impossible right in front of you.</p></div>
+      </article>
+    </section>
+
+    <section class="music-section" id="music">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/images/rollin-drones-stage.jpg">
+        <source src="assets/video/rollin-drones.mp4" type="video/mp4" />
+      </video>
+      <div class="music-overlay"></div>
+      <div class="music-copy reveal">
+        <p class="eyebrow">Live on stage</p>
+        <h2>The Rollin Drones</h2>
+        <p>Bagpipes, big tunes and the kind of energy that keeps the dance floor full.</p>
+      </div>
+    </section>
+
+    <section class="band-gallery section-shell">
+      <figure class="reveal"><img src="assets/images/rollin-drones-bagpipe.jpg" alt="A member of The Rollin Drones playing bagpipes on stage" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/images/rollin-drones-stage.jpg" alt="The Rollin Drones performing live under colourful stage lights" loading="lazy" /></figure>
+    </section>
+
+    <section class="split-section section-shell" id="food">
+      <div class="split-copy reveal">
+        <p class="eyebrow">Eat, drink, celebrate</p>
+        <h2>American flavours and proper cocktails.</h2>
+        <p>Build-your-own burgers, hot dogs, chicken wings, skewers, salads and all the sides—alongside a lively bar and plenty of reasons to stay for one more round.</p>
+      </div>
+      <div class="split-gallery">
+        <article class="reveal"><img src="assets/images/american-buffet.jpg" alt="An American-style buffet" loading="lazy"><span>American-style buffet</span></article>
+        <article class="reveal"><img src="assets/images/cocktail-bar.jpg" alt="A stylish cocktail bar serving colourful drinks and champagne" loading="lazy"><span>Cocktails &amp; champagne</span></article>
+      </div>
+    </section>
+
+    <section class="feature feature-dance">
+      <img src="assets/images/dance-floor.jpg" alt="A packed wedding dance floor with guests celebrating beneath warm lights" loading="lazy" />
+      <div class="feature-shade"></div>
+      <div class="feature-copy reveal">
+        <p class="eyebrow">Stay for the last song</p>
+        <h2>A dance floor with no quiet hours.</h2>
+        <p>Dress up, let loose and help us make this a night Edinburgh will remember.</p>
+      </div>
+    </section>
+
+    <section class="details-section" id="details">
+      <div class="section-shell details-grid">
+        <div class="details-copy reveal">
+          <p class="eyebrow">The details</p>
+          <h2>Saturday<br>22 May 2027</h2>
+          <dl>
+            <div><dt>Venue</dt><dd>Edinburgh Accies</dd></div>
+            <div><dt>Location</dt><dd>Raeburn Place, Stockbridge, Edinburgh</dd></div>
+            <div><dt>Arrival</dt><dd>From 6:30 PM</dd></div>
+            <div><dt>Dress</dt><dd>Dress to celebrate</dd></div>
+          </dl>
+          <div class="details-actions">
+            <a class="button button-primary" href="rsvp.html">Confirm attendance</a>
+            <a class="button button-ghost" href="party-save-the-date.ics" download>Add to calendar</a>
+          </div>
+        </div>
+        <figure class="details-image reveal">
+          <img src="assets/images/guest-arrival.jpg" alt="Well-dressed guests arriving at an evening celebration" loading="lazy" />
+          <figcaption>Stockbridge, Edinburgh</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="closing">
+      <img src="assets/images/sparklers.jpg" alt="Guests holding sparklers outside a Scottish celebration at night" loading="lazy" />
+      <div class="closing-overlay"></div>
+      <div class="closing-copy reveal">
+        <p class="eyebrow">We would love you to join us</p>
+        <h2>Ready to let us know?</h2>
+        <p>We hope you have enjoyed a little preview of what is in store. Please confirm whether you will be celebrating with us.</p>
+        <div class="closing-actions">
+          <a class="button button-primary" href="rsvp.html">Confirm attendance</a>
+          <a class="button button-ghost" href="party-save-the-date.ics" download>Add to calendar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>We cannot wait to celebrate with you.</span>
+    <span>Love, Andi &amp; Andrew</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
